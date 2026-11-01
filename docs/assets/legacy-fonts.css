@@ -1,0 +1,33 @@
+/* Local equivalents of the original Homestead font classes. */
+.Helvetica8 { font-family: Arial, Helvetica, sans-serif; font-size: 11px; }
+.Courier8 { font-family: "Courier New", monospace; font-size: 11px; }
+.Times8 { font-family: "Times New Roman", serif; font-size: 11px; }
+.size8 { font-size: 11px; }
+.Helvetica10 { font-family: Arial, Helvetica, sans-serif; font-size: 13px; }
+.Courier10 { font-family: "Courier New", monospace; font-size: 13px; }
+.Times10 { font-family: "Times New Roman", serif; font-size: 13px; }
+.size10 { font-size: 13px; }
+.Helvetica12 { font-family: Arial, Helvetica, sans-serif; font-size: 16px; }
+.Courier12 { font-family: "Courier New", monospace; font-size: 16px; }
+.Times12 { font-family: "Times New Roman", serif; font-size: 16px; }
+.size12 { font-size: 16px; }
+.Helvetica14 { font-family: Arial, Helvetica, sans-serif; font-size: 19px; }
+.Courier14 { font-family: "Courier New", monospace; font-size: 19px; }
+.Times14 { font-family: "Times New Roman", serif; font-size: 19px; }
+.size14 { font-size: 19px; }
+.Helvetica18 { font-family: Arial, Helvetica, sans-serif; font-size: 24px; }
+.Courier18 { font-family: "Courier New", monospace; font-size: 24px; }
+.Times18 { font-family: "Times New Roman", serif; font-size: 24px; }
+.size18 { font-size: 24px; }
+.Helvetica22 { font-family: Arial, Helvetica, sans-serif; font-size: 29px; }
+.Courier22 { font-family: "Courier New", monospace; font-size: 29px; }
+.Times22 { font-family: "Times New Roman", serif; font-size: 29px; }
+.size22 { font-size: 29px; }
+.Helvetica24 { font-family: Arial, Helvetica, sans-serif; font-size: 32px; }
+.Courier24 { font-family: "Courier New", monospace; font-size: 32px; }
+.Times24 { font-family: "Times New Roman", serif; font-size: 32px; }
+.size24 { font-size: 32px; }
+.Helvetica36 { font-family: Arial, Helvetica, sans-serif; font-size: 48px; }
+.Courier36 { font-family: "Courier New", monospace; font-size: 48px; }
+.Times36 { font-family: "Times New Roman", serif; font-size: 48px; }
+.size36 { font-size: 48px; }

@@ -1,0 +1,85 @@
+EXISTING MISSING PHOTOS
+
+These 26 images were absent from the supplied archive and returned HTTP 404 on
+the live site during the audit. Their captions and positions are preserved.
+To restore one later, add its original file to docs/ at the path below and change
+the corresponding img src from assets/photo-unavailable.svg to that path.
+The HTML data-missing-original attribute identifies each affected image.
+
+files/Abe_at_tea_rd.jpg
+  Main pages: PhotoGallery3.html
+
+files/Abe_working_on_Alera.jpg
+  Main pages: BHShipyard.html
+
+files/Amanda__2_.jpg
+  Main pages: Photogallery5.html
+
+files/Army_T_boat_and_Billy_Whiskers3.jpg
+  Main pages: BHShipyard.html
+
+files/Bert_and_Ania_clarinets.jpg
+  Main pages: PhotoGallery3.html
+
+files/Cabinet_in_officer_s_salon.jpg
+  Main pages: Gazela2.html
+
+files/Captain_s_Cabin.jpg
+  Main pages: Gazela2.html
+
+files/Captured_2004_12_18_P_P_Xmas_00006.JPG
+  Main pages: PhotoGallery4.html
+
+files/Carlton2.jpg
+  Main pages: bigelow.html
+
+files/Cindy_and_Lukas.jpg
+  Main pages: PhotoGallery2.html
+
+files/Dave_and_Billy_Whiskers1_rd.jpg
+  Main pages: BHShipyard.html
+
+files/Dave_at_desk1_rd.jpg
+  Main pages: BHShipyard.html
+
+files/Decking_Alera_rd.jpg
+  Main pages: BHShipyard.html
+
+files/Emelia_Lili.jpg
+  Main pages: PhotoGallery2.html
+
+files/Helga.jpg
+  Main pages: bigelow.html
+
+files/Jayce.jpg
+  Main pages: PhotoGallery2.html
+
+files/Joey.jpg
+  Main pages: Photogallery5.html
+
+files/Kathy___Lili_yoga2.jpg
+  Main pages: PhotoGallery2.html
+
+files/Kathy___Lili_yoga3.jpg
+  Main pages: PhotoGallery2.html
+
+files/Kurt_and_family.jpg
+  Main pages: PhotoGallery4.html
+
+files/Lambert_grandchildren.jpg
+  Main pages: PhotoGallery4.html
+
+files/Lili__Jayce__Emelia.jpg
+  Main pages: PhotoGallery2.html
+
+files/Pelagic_Australis.jpg
+  Main pages: BHShipyard.html
+
+files/Seamen_s_bunks.jpg
+  Main pages: Gazela2.html
+
+files/annTH.jpg
+  Main pages: PhotoGallery4.html
+
+files/charlie_and_Huan.jpg
+  Main pages: bigelow.html

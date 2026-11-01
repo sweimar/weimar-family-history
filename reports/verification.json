@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "html_pages_checked": 111,
+  "unchanged_original_media_verified": 556,
+  "local_link_targets_checked": 28,
+  "local_resource_targets_checked": 316,
+  "external_links_preserved_not_crawled": 9,
+  "preexisting_missing_photos_marked": 26,
+  "errors": [],
+  "browser_checks": {
+    "main_content_pages_checked": 37,
+    "failed_images": 0,
+    "pending_images": 0,
+    "frames": 0,
+    "pages_missing_visible_top_content": 0,
+    "entrance_and_history_navigation": "passed",
+    "gallery_missing_photo_markers": "passed",
+    "scope": "37 primary content pages; ring.html is a legacy timed entrance redirect; all 111 HTML files checked statically"
+  },
+  "readable_text_preservation": {
+    "html_files_checked_against_original_render_sources": 111,
+    "pages_with_lost_words": 0,
+    "canonical_pages_using_their_existing_modern_browser_layout": 30
+  }
+}

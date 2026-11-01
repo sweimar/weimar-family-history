@@ -1,0 +1,63 @@
+PREPARATION NOTES — NOVEMBER 1, 2026
+
+SOURCE AND SCOPE
+
+Prepared from weimarfamily-homestead.zip. The original archive and surrounding
+research folder are unchanged. Separate PDFs, documents and the genealogy database
+were not included. Homestead editor metadata (.hc, .xpf, .filelist, .xml) is omitted.
+
+Preserved all 111 HTML addresses, including the 38 main pages and the old browser
+variants. The variants now stand alone without browser-detection frames. For 30
+primary addresses that formerly selected a separate layout file, that existing
+modern-browser layout is now served directly; reports/cleanup.json records each
+source file. Preserved
+all 550 JPEGs and six GIFs byte for byte, including originals not linked from pages.
+The traditional layout, narrative, captions and navigation are retained; this is
+a hosting migration rather than a responsive redesign. Wide pages still scroll
+horizontally on narrow screens, as on the original site.
+
+Comparison with the live host during the audit found that 37 of the 38 main HTML
+pages exactly matched the archive. welcome.html differed only in capitalization
+corrections to photo filenames. All those corrections are included here, along
+with three additional corrections in Geiselmanfamily.html.
+
+CLEANUP
+
+- Fixed all 13 distinct image filename capitalization mismatches.
+- Removed Homestead/RealTracker tracking and obsolete browser-detection scripts.
+- Converted original fallback font styles to normal static CSS; supplied local
+  font classes for pages whose styles previously came from Homestead.
+- Replaced remote rectangles, circles, corners, stars, dividers and spacer pixels
+  with local graphics. These are local equivalents, not copies fetched from the
+  old graphics generator. Removed references to already-missing background tiles.
+- Removed the broken sound embeds. Replaced the obsolete Java "more!" animation
+  with static text, keeping the existing next-page link.
+- Marked the Homestead-only email button as retired rather than inventing a
+  replacement email address. Historic external links remain as archived content.
+- Converted pages to UTF-8 while keeping the original text.
+- Made local links work under a GitHub project path and under the custom domain.
+- Added docs/.nojekyll for direct static publishing.
+
+EXISTING MISSING IMAGES
+
+26 referenced photos were absent from the archive and returned HTTP 404 on the
+live host during the audit. Their spaces now show "Photo unavailable" while
+keeping the original dimensions and surrounding captions. No family photos were
+invented. reports/cleanup.json lists every original path and affected page, and
+the HTML retains data-missing-original attributes to support later restoration.
+
+A few missing Homestead clip-art images also use a neutral "Image unavailable"
+graphic. The Family Tree and Family News navigation thumbnails still link to
+their original destinations. External historical links have been retained but
+their remote destinations have not all been checked.
+
+CHECKS
+
+tools/check_site.py checks every HTML page for exact-case local links and assets,
+for leftover remote resource dependencies and active legacy elements, validates
+local SVG graphics and verifies all original image hashes. Results are recorded
+in reports/verification.json. reports/cleanup.json contains the full change counts,
+missing-photo list, omitted editor files and original-image hash manifest.
+
+No GitHub repository has been created or published. No DNS, domain registration,
+hosting subscription or public live website has been changed.
